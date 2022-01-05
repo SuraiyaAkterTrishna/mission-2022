@@ -83,3 +83,16 @@ h2{
     background-position: right 220px bottom;
     padding-bottom: 4%;
 }
+footer{
+    padding: 50px;
+    background-color: black;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    color: gray;
+    text-align: center;
+}
