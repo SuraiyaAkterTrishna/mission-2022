@@ -55,3 +55,10 @@ h2{
     background-size: 12%;
     background-position: 70px 80px;
 }
+.community-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: right 220px bottom;
+    padding-bottom: 4%;
+}
