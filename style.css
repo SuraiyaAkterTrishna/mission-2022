@@ -6,14 +6,14 @@ body{
 }
 .flex{
     display: flex;
-    padding: 2% 5%;
+    padding: 2% 10%;
     
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 .heading{
     font-family: 'Yeseva One', cursive;
@@ -44,4 +44,14 @@ body{
 }
 .content-item{
     width: 60%;
+}
+h2{
+    font-size: 30px;
+    line-height: 70%;
+}
+.develop-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position: 70px 80px;
 }
