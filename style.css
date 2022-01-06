@@ -1,13 +1,10 @@
-/*font-family: 'Lobster', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Yeseva One', cursive;*/
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .flex{
     display: flex;
     padding: 2% 10%;
-    
 }
 .half-width{
     width: 50%;
@@ -21,7 +18,7 @@ body{
     line-height: 90%;
     border-left: 5px solid #EF5DA8;
     padding-left: 7px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .pink-color{
     color: #EF5DA8;
@@ -33,7 +30,6 @@ body{
     border-radius: 5px;
     color: #fff;
     margin-bottom: 50px;
-    
 }
 .mission-area h2{
     text-align: center;
@@ -79,19 +75,39 @@ h2{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 12%;
-    background-position: right 220px bottom;
+    background-position: right 200px bottom;
     padding-bottom: 4%;
+}
+.blog-area h2{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.blog{
+    width: 24%;
+    margin-right: 1%;
+}
+.blog img{
+    width: 100%;
+}
+.blog h3{
+    font-size: 24px;
+    margin: 5px;
+}
+.blog small{
+    color: lightgray;
+    padding: 10px;
+    border-bottom:3px solid #ffbbff;
 }
 footer{
     padding: 50px;
     background-color: black;
+    text-align: center;
 }
 footer h1{
     font-family: 'Lobster', cursive;
     color: #fff;
-    text-align: center;
 }
 footer p{
-    color: gray;
-    text-align: center;
+    color: lightgray;
 }
